@@ -5,9 +5,7 @@ export default class AddNumberRoot extends Component {
     return (
       <div>
         <h1>Add Number Root</h1>
-        <AddNumber
-          handleClick={(size) => this.props.handleClick(size)}
-        ></AddNumber>
+        <AddNumber></AddNumber>
       </div>
     );
   }
