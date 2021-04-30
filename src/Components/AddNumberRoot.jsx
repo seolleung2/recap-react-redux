@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import AddNumber from "./AddNumber";
+import AddNumber from "../Containers/AddNumber";
 export default class AddNumberRoot extends Component {
   render() {
     return (
